@@ -8,7 +8,7 @@ Este projeto tem como objetivo apresentar uma análise interativa e visual da Re
 
 Dashboard inicial com informações consolidadas de fornecedores ativos, classificações, grupos econômicos, e filtros interativos por nome, CNPJ, ramo de atividade, estado, entre outros.
 
-![Visão Geral](./visao_geral.png)
+![Visão Geral](https://github.com/user-attachments/assets/21dc691a-2ec5-455c-bc7f-fc53e1e92771)
 
 ---
 
@@ -16,7 +16,7 @@ Dashboard inicial com informações consolidadas de fornecedores ativos, classif
 
 Visualize o total de ocorrências por motivo, distribuição geográfica dos fornecedores e evolução mensal das ocorrências por tipo.
 
-![Ocorrências](./ocorrencias.png)
+![Ocorrências](https://github.com/user-attachments/assets/f6912366-7b34-4801-8c30-b3f6000c9854)
 
 ---
 
@@ -24,7 +24,7 @@ Visualize o total de ocorrências por motivo, distribuição geográfica dos for
 
 Dashboard com total de agendamentos, fornecedores envolvidos, tipos de manutenção (corretiva, preventiva e sinistro), e análises por mês e cidade.
 
-![Agendamentos](./agendamentos.png)
+![Agendamentos](https://github.com/user-attachments/assets/050376c4-c100-43cb-bf46-3cab6789dc05)
 
 ---
 
@@ -32,7 +32,7 @@ Dashboard com total de agendamentos, fornecedores envolvidos, tipos de manutenç
 
 Tela de navegação do relatório com botões direcionando para as principais seções: Visão Geral, Ocorrências e Agendamentos.
 
-![Home](./home.png)
+![Home](https://github.com/user-attachments/assets/44bd2d89-9afa-4703-88f4-c9f05f139452)
 
 ---
 
@@ -40,7 +40,7 @@ Tela de navegação do relatório com botões direcionando para as principais se
 
 Relacionamentos entre as tabelas utilizadas no projeto, como `FORNECEDORES`, `AGEN_OCORR`, `PL_FLUXO_OS`, `PI_OCORRENCIA_AREA`, entre outras.
 
-![Modelo de Dados](./modelo_dados.png)
+![Modelo de Dados](https://github.com/user-attachments/assets/fe6ff49d-b6dc-4827-9169-e6d56c78e9ee)
 
 ---
 
@@ -84,4 +84,4 @@ Este projeto é apenas uma amostra visual e analítica, ideal para gestores acom
 ## 👨‍💼 Desenvolvido por
 
 **Rafael Souza Da Silva**  
-[LinkedIn](https://www.linkedin.com/) *(https://www.linkedin.com/in/rafael-silva-a5a594268/)*
+[LinkedIn](https://www.linkedin.com/in/rafael-silva-a5a594268/)
