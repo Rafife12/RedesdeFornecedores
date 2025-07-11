@@ -1,0 +1,22 @@
+
+TipoPessoa = 
+VAR CNPJLimpo = SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE('FORNECEDORES'[CNPJ],".",""),"/",""),"-","")," ","")
+RETURN IF(LEN(CNPJLimpo) = 11, "CPF", "CNPJ")
+
+TotalFornecedoresCNPJ = 
+CALCULATE(
+    DISTINCTCOUNT('FORNECEDORES'[CNPJ]),
+    'FORNECEDORES'[TipoPessoa] = "CNPJ"
+)
+
+TotalFornecedoresCPF = 
+CALCULATE(
+    DISTINCTCOUNT('FORNECEDORES'[CNPJ]),
+    'FORNECEDORES'[TipoPessoa] = "CPF"
+)
+
+FornecedoresComFunilaria = 
+CALCULATE(
+    DISTINCTCOUNT('PI_FLUXO_OS'[CNPJ]),
+    'PI_FLUXO_OS'[PA_FUNILARIA] = "Sim"
+)
