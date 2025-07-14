@@ -81,7 +81,4 @@ Este projeto é apenas uma amostra visual e analítica, ideal para gestores acom
 
 ---
 
-## 👨‍💼 Desenvolvido por
 
-**Rafael Souza Da Silva**  
-[LinkedIn](https://www.linkedin.com/in/rafael-silva-a5a594268/)
